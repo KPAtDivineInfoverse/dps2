@@ -1,0 +1,128 @@
+/* =============== index  ================ */
+
+/*------- event strt------ */
+
+.event-img-custom img{
+    height: 15rem !important;
+    width: 100% !important;
+}
+
+/*------- event end------ */
+/*------- blogs strt------ */
+
+.blog-img img{
+    height: 25rem !important;
+    width: 100% !important;
+    object-fit: contain;
+}
+
+/*------- blogs end------ */
+/*------- footer strt------ */
+
+.footer-logo img{
+    height: 13rem !important;
+    width: 100% !important;
+    object-fit: contain;
+}
+
+/*------- footer end------ */
+
+
+
+
+
+
+
+/* ======= join ======= */
+
+.join-custom{
+    padding: 0rem 10rem;
+}
+
+@media (max-width:767px) {
+    .join-custom{
+        padding: 0rem 2rem;
+    }
+}
+
+
+@media (max-width:400px) {
+    .join-custom{
+        padding: 0rem 1rem;
+    }
+}
+
+
+
+/* ======= 404 ======= */
+
+.image-404-page img{
+    height: 200px;
+}
+
+
+
+/* ======= faq ======= */
+
+.faq-main{
+    padding: 8rem;
+}
+
+@media (max-width:500px) {
+    .faq-main{
+        padding: 2rem;
+    }
+}
+
+
+
+/* ======= Term ======= */
+
+.term-main{
+    padding: 8rem;
+}
+
+@media (max-width:500px) {
+    .term-main{
+        padding: 2rem;
+    }
+}
+
+
+
+/* ======= privacy ======= */
+
+.privacy-main{
+    padding: 8rem;
+}
+
+@media (max-width:500px) {
+    .privacy-main{
+        padding: 2rem;
+    }
+}
+
+
+
+/* ======= contact ======= */
+
+.contact{
+    padding: 0rem 5rem;
+}
+
+
+@media (max-width:500px) {
+    .contact-email{
+        display: flex;
+        flex-wrap: wrap;
+        width: 3rem !important;
+    }
+
+    .contact{
+        padding: 0rem 0rem;
+    }
+
+    .contact-title{
+        padding-left: 1rem;
+    }
+}
